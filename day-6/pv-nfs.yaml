@@ -11,6 +11,6 @@ spec:
     - ReadWriteOnce 
   persistentVolumeReclaimPolicy: Retain 
   nfs:
-    server: 192.168.68.100
-    path: "/mnt/paths" 
+    server: 192.168.68.101
+    path: "/mnt/nfs" 
   storageClassName: giropops
