@@ -1,0 +1,21 @@
+apiVersion: networking.k8s.io/v1 
+kind: NetworkPolicy 
+metadata:
+  name: primeira-netpol 
+  namespace: giropops 
+spec:
+  podSelector:
+    matchLabels:
+      app: redis # Vale para qualquer um que quiser se comunicar com o redis 
+  ingress:
+  - from:
+      - podSelector: {}
+
+
+
+
+
+
+
+
+
