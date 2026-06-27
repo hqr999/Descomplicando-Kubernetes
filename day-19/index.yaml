@@ -1,0 +1,15 @@
+apiVersion: v1
+entries:
+  giropops-senhas:
+  - apiVersion: v2
+    appVersion: "1.0"
+    created: "2026-06-27T20:39:06.23450887-03:00"
+    description: Gerador de senhas em python
+    digest: 4ba8e11c904cf673c2ce3119ddb097e715b0a2e83ef76b6553617dacbc38c3d7
+    name: giropops-senhas
+    sources:
+    - https://github.com/badtuxx/giropops-senhas
+    urls:
+    - https://github.com/hqr999/Descomplicando-Kubernetes/giropops-senhas-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-06-27T20:39:06.234010554-03:00"
